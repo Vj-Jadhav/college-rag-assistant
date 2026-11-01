@@ -1,0 +1,38 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector Database storage (local embeddings persist directory)
+chroma_db/
+*.sqlite3
+
+# Uploaded / Cached Data files (keep placeholder)
+data/*
+!data/.gitkeep
+
+# Streamlit local runtime cache & configurations
+.streamlit/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
